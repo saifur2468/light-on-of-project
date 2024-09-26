@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="box">
+        <img id="lamppost" src="images/lamppng.parspng.com_.png">
+
+        <div class="btn">
+            <button id="switch">on light</button>
+            <button id="botam">off light</button>
+            
+        </div>
+    </div>
+
+
+
+<p id="demo">Java script is very importent in programing life so we learn programing leangueg</p>
+
+<button  onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+
+
+ <script>
+    const lampost = document.getElementById('lamppost');
+    const switchon = document.getElementById('switch');
+    const switchof = document.getElementById('botam');
+
+   
+     
+
+
+    switchon.addEventListener('click',function(){
+        lamppost.style.backgroundColor = 'yellow';
+       
+    })
+
+    switchof.addEventListener('click',function(){
+        lamppost.style.backgroundColor = 'crimson';
+        
+    })
+</script> 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="light.js"></script>   
+</body>
+</html>
